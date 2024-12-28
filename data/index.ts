@@ -1,7 +1,7 @@
 export const navItems = [
     { name: "About", link: "#about" },
     { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
+    { name: "Experience", link: "#Experience" },
     { name: "Contact", link: "#contact" },
   ];
   
@@ -18,16 +18,6 @@ export const gridItems = [
     },
     {
       id: 2,
-      title: "I'm very flexible with time zone communications",
-      description: "",
-      className: "lg:col-span-2 md:col-span-3 md:row-span-2",
-      imgClassName: "",
-      titleClassName: "justify-start",
-      img: "",
-      spareImg: "",
-    },
-    {
-      id: 3,
       title: "My tech stack",
       description: "I constantly try to improve",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
@@ -37,7 +27,7 @@ export const gridItems = [
       spareImg: "",
     },
     {
-      id: 4,
+      id: 3,
       title: "Tech enthusiast with a passion for development.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
@@ -48,7 +38,7 @@ export const gridItems = [
     },
   
     {
-      id: 5,
+      id: 4,
       title: "Currently building a JS Animation library",
       description: "The Inside Scoop",
       className: "md:col-span-3 md:row-span-2",
@@ -58,7 +48,7 @@ export const gridItems = [
       spareImg: "/grid.svg",
     },
     {
-      id: 6,
+      id: 5,
       title: "Do you want to start a project together?",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
@@ -215,3 +205,31 @@ export const socialMedia = [
       img: "/link.svg",
     },
   ];
+
+export const Email = {
+  email: "LxH9o@example.com",
+} 
+
+export const approaches = [
+  {
+    id:1 , 
+    title: "Planning & Strategy",
+    description: `We'll collaborate to map out your website's goals, target audience, 
+    and key functionalities. We'll discuss things like site structure, 
+    navigation, and content requirements.`,
+  },
+  {
+    id:2,
+    title: "Development & Progress Update",
+    description: `Once we agree on the plan, I cue my lofi playlist and dive into
+    coding. From initial sketches to polished code, I keep you updated
+    every step of the way.`,
+  },
+  {
+    id:3,
+    title: "Development & Launch",
+    description: `This is where the magic happens! Based on the approved design, 
+    I'll translate everything into functional code, building your website
+    from the ground up.`,
+  },
+];
