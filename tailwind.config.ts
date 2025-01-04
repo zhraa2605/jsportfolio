@@ -27,21 +27,6 @@ const config = {
     },
     extend: {
       colors: {
-        black: {
-          DEFAULT: "#000",
-          100: "#000319",
-          200: "rgba(17, 25, 40, 0.75)",
-          300: "rgba(255, 255, 255, 0.125)",
-        },
-        white: {
-          DEFAULT: "#FFF",
-          100: "#BEC1DD",
-          200: "#C1C2D3",
-        },
-        blue: {
-          "100": "#E4ECFF",
-        },
-        purple: "#CBACF9",
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
@@ -74,6 +59,42 @@ const config = {
         card: {
           DEFAULT: "hsl(var(--card))",
           foreground: "hsl(var(--card-foreground))",
+        },
+        black: {
+          DEFAULT: "hsl(var(--black))",
+          100: "hsl(var(--black-100))",
+          200: "hsl(var(--black-200))",
+          300: "hsl(var(--black-300))",
+        },
+        white: {
+          DEFAULT: "hsl(var(--white))",
+          100: "hsl(var(--white-100))",
+          200: "hsl(var(--white-200))",
+        },
+        blue: {
+          "100": "hsl(var(--blue-100))",
+        },
+        purple: {
+          DEFAULT: "#645394", 
+          dark: "#4C1D95"    
+        },
+        blue: {
+          "100": "#E4ECFF",
+        },
+        purple: {
+          DEFAULT: "#645394", 
+          dark: "#CBACF9"    
+        },
+        black: {
+          DEFAULT: "#000",
+          100: "#000319",
+          200: "rgba(17, 25, 40, 0.75)",
+          300: "rgba(255, 255, 255, 0.125)",
+        },
+        white: {
+          DEFAULT: "#FFF",
+          100: "#BEC1DD",
+          200: "#C1C2D3",
         },
       },
       borderRadius: {

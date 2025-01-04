@@ -11,9 +11,9 @@ const Footer = () => {
       <div className='flex flex-col items-center'> 
 
         <h1 className='heading lg:max-w-[45vw]'>
-            Ready to Take <span className='text-purple'>Your</span> Digital presense to the next level
+            Ready to Take <span className='text-purple dark:text-purple-dark'>Your</span> Digital presense to the next level
         </h1>
-        <p className='text-white-200 md:mt-10 my-5 text-center'>
+        <p className='text-gray-600 dark:text-white-200 md:mt-10 my-5 text-center'>
             Reach out to me today and let&apos;s disucss how I can help you achieve your goals
         </p>
         <a href ='https://mail.google.com/mail/u/0/?view=cm&fs=1&to=3dV8k@example.com'>
@@ -23,7 +23,7 @@ const Footer = () => {
       </div>
       <div className='flex mt-16 md:flex-row flex-col items-center justify-between'>
         <p className='md:text-base text-sm font-light'>
-            Copyright © 2024 Zahraa 
+            Copyright  2024 Zahraa 
 
         </p>
         <div  className='flex items-center gap-6 md:gap-3'>

@@ -32,7 +32,7 @@ export function Button({
   return (
     <Component
       className={cn(
-        "bg-transparent relative text-xl  p-[1px] overflow-hidden md:col-span-2 ",
+        "bg-transparent relative text-xl p-[1px] overflow-hidden md:col-span-2",
         containerClassName
       )}
       style={{
@@ -56,7 +56,7 @@ export function Button({
 
       <div
         className={cn(
-          "relative bg-slate-900/[0.8] border border-slate-800 backdrop-blur-xl text-white flex items-center justify-center w-full h-full text-sm antialiased",
+          "relative bg-white dark:bg-slate-900/[0.8] border border-gray-200 dark:border-slate-800 backdrop-blur-xl text-black dark:text-white flex items-center justify-center w-full h-full text-sm antialiased",
           className
         )}
         style={{
@@ -128,7 +128,6 @@ export const MovingBorder = ({
           position: "absolute",
           top: 0,
           left: 0,
-          display: "inline-block",
           transform,
         }}
       >

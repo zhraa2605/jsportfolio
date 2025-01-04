@@ -17,7 +17,7 @@ export const BentoGrid = ({
   return (
     <div
       className={cn(
-        "grid md:auto-rows-7 grid-cols-1 md:grid-cols-6 lg:grid-cols-5 gap-4 lg:gap-8 mx-auto ",
+        "grid md:auto-rows-7 grid-cols-1 md:grid-cols-6 lg:grid-cols-5 gap-4 lg:gap-8 mx-auto bg-white dark:bg-black-100",
         className
       )}
       
@@ -55,7 +55,7 @@ export const BentoGridItem = ({
     return (
       <div
         className={cn(
-          "row-span-1 relative overflow-hidden rounded-3xl border border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4",
+          "row-span-1 relative overflow-hidden rounded-3xl border border-gray-200 dark:border-white/[0.1] group/bento hover:shadow-xl transition duration-200 shadow-input dark:shadow-none justify-between flex flex-col space-y-4 bg-white dark:bg-[#10132E]",
           className
         )}
         style={{
@@ -105,18 +105,18 @@ export const BentoGridItem = ({
             <div className="flex gap-1 lg:gap-5 w-fit absolute -right-3 lg:-right-2">
               <div className="flex flex-col gap-3 lg:gap-4 ">
                 {['React.js' , 'Next.js' , 'TypeScript'].map((item ) => (
-                  <span key={item } className="py-2  lg:px-3 px-3 text-xs  opacity-50 rounded-lg text-center bg-[#10132E]">
+                  <span key={item } className="py-2  lg:px-3 px-3 text-xs  opacity-50 rounded-lg text-center dark:bg-[#10132E]">
                     {item}
                   </span>
                   
                 ))}
-                <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
+                <span className="py-4 px-3 rounded-lg text-center dark:bg-[#10132E]" />
 
              </div>
              <div className="flex flex-col gap-3 lg:gap-4 ">
-             <span className="py-4 px-3 rounded-lg text-center bg-[#10132E]" />
+             <span className="py-4 px-3 rounded-lg text-center dark:bg-[#10132E]" />
                 {['Django' , 'Flask' , 'MySQL' , ].map((item ) => (
-                  <span key={item } className="py-2  lg:px-3 px-3 text-xs  opacity-50  rounded-lg text-center bg-[#10132E]">
+                  <span key={item } className="py-2  lg:px-3 px-3 text-xs  opacity-50  rounded-lg text-center dark:bg-[#10132E]">
                     {item}
                   </span>
                   
@@ -137,7 +137,7 @@ export const BentoGridItem = ({
                 <MagicButton title={ copied ? 'Email Copied' : 'Copy my Email' }
                 icon={<IoCopyOutline />}
                 position="left" 
-                otherClasses="!bg-[#161a31]"
+                otherClasses="dark:!bg-[#161a31]"
                 handleClick={handleCopy}/>
             </div> 
           ) }
